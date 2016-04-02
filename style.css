@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+#box{
+    position: relative;
+    width:300px;
+    height:400px;
+    margin:100px auto;
+    border:1px solid gray;
+}
+
+
+#box ul li{
+    display: block;
+    width:148px;
+    height:50px;
+    float:left;
+    background: grey;
+    line-height: 50px;
+    text-align: center;
+    color:white;
+    font-size: 24px;
+    cursor:pointer;
+   border: 1px solid darkgray;
+}
+#box ul li.current{
+    background: gold;
+    border:1px solid gold;
+}
+.content{
+    width:300px;
+    float:left;
+
+}
+.content_left,.content_right{
+    height: 348px;
+
+}
+#login{
+    /*padding: 20px auto;*/
+    padding-top:70px ;
+    /*padding-left:30px;*/
+}
+#login .label1{
+    width:300px;
+    height:50px;
+    float:left;
+    text-align: center;
+
+}
+#login .label1 input{
+    height: 30px;
+    font-size: 14px;
+    position:relative;
+}
+#login .extra{
+    clear:both;
+    position: relative;
+    padding-left:40px;
+    padding-right: 40px;
+    margin:20px auto;
+}
+#login .extra a{
+    float:right;
+    position: relative;
+
+}
+#login .savePassword{
+    position:relative;
+    left:40px;
+}
+
+#submitBtn{
+    width:200px;
+    height:30px;
+    position:relative;
+    left:50px;
+}
+
+
+.content_right .register{
+    width:260px;
+    height:300px;
+    margin:50px auto;
+ 
+}
+.content_right{
+    display: none;
+}
+.content_right input{
+    font-size: 14px;
+}
+.content_right .divClass{
+    width:260px;
+    height:30px;
+    float:left;
+    margin:10px 0;
+}
+.divClass label{
+    height: 30px;
+    line-height: 30px;
+}
+.divClass .right{
+    float:right;
+    height: 30px;
+}
+
+#sex label{
+    position: relative;
+    margin-left: 40px;
+}
+#submit{
+    width:150px;
+    height: 30px;
+    float:right;
+    margin-right: 40px;
+}
